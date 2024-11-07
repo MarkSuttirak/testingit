@@ -6,14 +6,14 @@ const TestOne = () => {
 
   const [count, setCount] = useState(0);
 
-  useEffect(() => {
-    const countNum = setInterval(() => {
-      console.log(count)
-      if (count < 20) setCount(prev => prev + 1)
-    }, 500)
+//   useEffect(() => {
+//     const countNum = setInterval(() => {
+//       console.log(count)
+//       if (count < 20) setCount(prev => prev + 1)
+//     }, 500)
 
-    // return clearInterval(countNum)
-  }, [])
+//     // return clearInterval(countNum)
+//   }, [])
 
   return (
     <>
